@@ -7,11 +7,33 @@ tags:
   - Maritime
   - Shipping
   - Container Logistics
-description: 'A German multinational container shipping company and one of the world''s largest liner shipping companies. Operates a fleet of over 250 vessels serving approximately 600 ports across 130 countries with a focus on quality and reliability.'
+  - Supply Chain
+description: 'A German multinational container shipping company and one of the world''s largest liner shipping companies. Operates a fleet of over 250 vessels serving approximately 600 ports across 130 countries with a focus on quality and reliability. Provides a public API portal (api-portal.hlag.com) exposing container tracking, schedule, and booking APIs to customers, partners, and logistics platforms.'
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: hapag-lloyd:hapag-lloyd-api-portal
+    name: Hapag-Lloyd API Portal
+    description: >-
+      Hapag-Lloyd''s API Portal exposes container shipping APIs covering container
+      tracking and tracing, vessel schedules, point-to-point routings, booking
+      submission, and shipment status events. APIs target customers, freight
+      forwarders, and digital logistics platforms integrating ocean carrier data.
+    humanURL: https://api-portal.hlag.com/
+    tags:
+      - Container Tracking
+      - Schedules
+      - Booking
+      - Ocean Freight
+    properties:
+      - url: https://api-portal.hlag.com/
+        type: Portal
 common:
   - type: Website
     url: https://www.hapag-lloyd.com/
+  - type: Portal
+    url: https://api-portal.hlag.com/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
