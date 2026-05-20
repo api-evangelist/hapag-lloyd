@@ -30,6 +30,10 @@ apis:
       - url: https://api-portal.hlag.com/
         type: Portal
 common:
+  - type: GitHubOrganization
+    url: https://github.com/Hapag-Lloyd
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/hapag-lloyd-ag
   - type: Website
     url: https://www.hapag-lloyd.com/
   - type: Portal
