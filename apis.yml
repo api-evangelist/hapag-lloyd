@@ -30,6 +30,8 @@ apis:
       - url: https://api-portal.hlag.com/
         type: Portal
 common:
+  - type: DomainSecurity
+    url: security/hapag-lloyd-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/Hapag-Lloyd
   - type: LinkedIn
