@@ -22,7 +22,7 @@ tags:
 description: 'A German multinational container shipping company and one of the world''s largest liner shipping companies. Operates a fleet of over 250 vessels serving approximately 600 ports across 130 countries with a focus on quality and reliability. Provides a public API portal (api-portal.hlag.com) exposing container tracking, schedule, and booking APIs to customers, partners, and logistics platforms.'
 created: '2026-05-05'
 modified: '2026-05-16'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: hapag-lloyd:hapag-lloyd-api-portal
     name: Hapag-Lloyd API Portal
