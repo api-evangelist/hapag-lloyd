@@ -45,6 +45,11 @@ apis:
     humanURL: https://api-portal.hlag.com/
     tags:
       - Container Tracking
+      - Schedule
+      - Booking
+      - Ocean Freight
+    tags_raw:
+      - Container Tracking
       - Schedules
       - Booking
       - Ocean Freight
